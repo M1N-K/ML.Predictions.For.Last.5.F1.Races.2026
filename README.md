@@ -85,4 +85,4 @@ Replay a past race using only the races before it: `python predict.py --race 202
 
 Race data from [f1db](https://github.com/f1db/f1db), licensed CC BY 4.0. This project is not affiliated with Formula 1 or the FIA.
 
-Built by YOUR NAME, 2026.
+Built by Marcel Nowak, 2026.
