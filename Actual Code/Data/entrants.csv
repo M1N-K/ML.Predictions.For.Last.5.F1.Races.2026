@@ -1,0 +1,36 @@
+year,driver_id,constructor_id,entrant_id,test_driver,rounds
+2026,fernando-alonso,aston-martin,aston-martin-aramco-formula-one-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,lance-stroll,aston-martin,aston-martin-aramco-formula-one-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,jak-crawford,aston-martin,aston-martin-aramco-formula-one-team,True,
+2026,alexander-albon,williams,atlassian-williams-f1-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,carlos-sainz-jr,williams,atlassian-williams-f1-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,luke-browning,williams,atlassian-williams-f1-team,True,
+2026,gabriel-bortoleto,audi,audi-revolut-f1-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,nico-hulkenberg,audi,audi-revolut-f1-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,paul-aron,audi,audi-revolut-f1-team,True,
+2026,pierre-gasly,alpine,bwt-alpine-formula-one-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,franco-colapinto,alpine,bwt-alpine-formula-one-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,paul-aron,alpine,bwt-alpine-formula-one-team,True,
+2026,sergio-perez,cadillac,cadillac-formula-1-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,valtteri-bottas,cadillac,cadillac-formula-1-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,colton-herta,cadillac,cadillac-formula-1-team,True,
+2026,lando-norris,mclaren,mclaren-mastercard-f1-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,oscar-piastri,mclaren,mclaren-mastercard-f1-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,leonardo-fornaroli,mclaren,mclaren-mastercard-f1-team,True,
+2026,kimi-antonelli,mercedes,mercedes-amg-petronas-formula-one-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,george-russell,mercedes,mercedes-amg-petronas-formula-one-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,frederik-vesti,mercedes,mercedes-amg-petronas-formula-one-team,True,
+2026,isack-hadjar,red-bull,oracle-red-bull-racing,False,1 2 3 4 5 6 7 8 9 10 11 15 16 17 18
+2026,liam-lawson,red-bull,oracle-red-bull-racing,False,12 13 14
+2026,max-verstappen,red-bull,oracle-red-bull-racing,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,ayumu-iwasa,red-bull,oracle-red-bull-racing,True,
+2026,charles-leclerc,ferrari,scuderia-ferrari-hp,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,lewis-hamilton,ferrari,scuderia-ferrari-hp,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,dino-beganovic,ferrari,scuderia-ferrari-hp,True,
+2026,esteban-ocon,haas,tgr-haas-f1-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,oliver-bearman,haas,tgr-haas-f1-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,ryo-hirakawa,haas,tgr-haas-f1-team,True,
+2026,arvid-lindblad,racing-bulls,visa-cash-app-racing-bulls-formula-one-team,False,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+2026,liam-lawson,racing-bulls,visa-cash-app-racing-bulls-formula-one-team,False,1 2 3 4 5 6 7 8 9 10 11 15 16 17 18
+2026,yuki-tsunoda,racing-bulls,visa-cash-app-racing-bulls-formula-one-team,False,12 13 14
+2026,ayumu-iwasa,racing-bulls,visa-cash-app-racing-bulls-formula-one-team,True,
