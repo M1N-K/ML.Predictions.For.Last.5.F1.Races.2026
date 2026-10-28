@@ -17,13 +17,12 @@
 
 # F1 Race Predictor
 
-A machine-learning model that predicts Formula 1 races: the finishing order, each driver's chance of
-winning, reaching the podium or retiring, and the odds of the championship for the rest of the season.
+**Predict a Formula 1 race, then check honestly how good the prediction was.**
 
-It makes a prediction at three points of a race weekend, because information arrives as the weekend
-goes on: **before the weekend**, **after practice** and **after qualifying**. Every prediction is saved
-before the race and scored afterwards, so the model's real record builds up in public rather than
-being judged only on past data.
+For every driver in a race, this gives a predicted finishing position and the chance of winning,
+reaching the podium or retiring. For the rest of a season it also gives the chance of each driver and
+team winning the championship. It is a machine-learning model (LightGBM) trained on every race since
+2014, and everything it produces is a plain text file you can open in Notepad.
 
 > Unofficial hobby project. Not affiliated with Formula 1 or the FIA. Not betting advice.
 
@@ -33,18 +32,90 @@ being judged only on past data.
 any setting. Close to the dotted diagonal is good. Win and podium chances are close; the highest
 retirement chances are too high.*
 
-## What it does
+## Why this exists
 
-- Predicts the finishing order, with P(win), P(podium) and P(retirement) for every driver
-- Predicts every remaining race of the season, and simulates the championship 20,000 times from the
-  real standings (drivers' and constructors' title odds, and when the title could be decided)
-- Works out who is on the grid by itself (season entry list, practice attendance), with a small
-  file for changes you know about (driver out, replacement, grid penalty)
-- Saves each prediction before the race and scores it afterwards (`tracker.py`)
-- Compares its win chances with bookmaker odds you type in (`odds.py`)
-- Writes everything as plain text files you can open in Notepad
+Predicting sport is easy to do badly. A model can look brilliant because it quietly saw information
+from the future, or because only its best number was reported, or because nobody compared it with
+something simple. This project is set up to avoid all three:
 
-## How accurate is it?
+- **Predictions are saved before the race and scored after it.** A race that already has a result is
+  never saved, so the record can't be back-filled.
+- **Every model is compared with plain baselines** ("the starting grid order", "recent driver form"),
+  on the same races, with a 95% interval on each difference.
+- **A test checks for leaks.** `test_no_leakage.py` blanks out everything that isn't known yet at
+  each point of the weekend and confirms the model's inputs don't change.
+- **Ideas that did not help are left out**, and listed below with their numbers.
+
+The aim is a model whose numbers can be checked, not just admired.
+
+## Try it
+
+```bash
+git clone https://github.com/<your-username>/f1-race-predictor.git
+cd f1-race-predictor
+pip install -r requirements.txt
+python run_all.py --out Predictions
+```
+
+That uses the data and trained models in the repository and takes under a minute (developed and
+tested on Python 3.13). On Windows or Mac you can instead double-click `Run_Predictions`; see
+`START HERE.txt`.
+
+Text files appear in `Predictions/`:
+
+| file | what is in it |
+|---|---|
+| `rest_of_season_2026.txt` | predicted order, win and podium chances for every remaining race |
+| `championship_2026.txt` | title odds for drivers and teams, and when the title could be decided |
+| `odds_report.txt` | the model's win chances next to bookmaker odds you have typed in |
+| `scorecard.txt` | how earlier predictions did against the real results (after the first race) |
+
+A taste of `rest_of_season_2026.txt`:
+
+```
+R19 Mexico   2026-11-01  Kimi Antonelli 32% | Max Verstappen 32% | Lewis Hamilton 8%   [before the weekend]
+
+ Pred            Driver      Team P(win) P(podium)
+    1    Kimi Antonelli  Mercedes  32.2%       62%
+    2    Max Verstappen  Red Bull  31.8%       56%
+    3      Lando Norris   Mclaren   7.5%       33%
+    4    Lewis Hamilton   Ferrari   8.4%       34%
+    5     Oscar Piastri   Mclaren   2.7%       16%
+```
+
+*Predicted on 28 October 2026 with models trained through round 18 (the United States GP).*
+
+## Using it through a race weekend
+
+The model gets better as the weekend gives it more to work with, so run it at each point:
+
+1. **Before the weekend:** `python run_all.py --out Predictions`. Form only: no practice, no grid.
+2. **After practice:** `python run_all.py --refresh --out Predictions`. This downloads the latest
+   data, refits, and adds practice pace (once the data source has published the sessions).
+3. **After qualifying:** the same command again. Now it knows the grid. If a driver has a grid
+   penalty, add it to `overrides.csv` first (penalties only have an effect from this point).
+4. **After the race:** the same command once more. It scores the saved predictions against the real
+   result and updates the championship odds.
+
+Changes you know about (a driver out, a stand-in, a penalty) go in `overrides.csv`. Everything
+else, including who is on the grid, is worked out from the season's entry list and who turned up
+to practice (`lineup.py`).
+
+## How it thinks
+
+- **Three stages.** One set of models for before the weekend, one for after practice, one for after
+  qualifying. Each sees more than the last, and none sees anything it could not have known.
+- **Two kinds of question, two kinds of model.** A ranking model orders the whole field (trained on
+  championship points for each finishing position). Separate classifiers give P(win), P(podium) and
+  P(retirement), scaled within each race so they add up properly.
+- **Championship odds by simulation.** Each remaining race is played 20,000 times from the real
+  standings. Drivers retire at their predicted rate, the rest are ordered by the model plus random
+  luck sized from past seasons, and teams share a pace "shock" that carries from race to race. That
+  last part fixed ranges that were far too narrow when every race was treated as independent.
+- **Data:** [f1db](https://github.com/f1db/f1db), every race from 2014 (the hybrid era): results,
+  qualifying, practice, pit stops, sprints and standings.
+
+## How well does it work?
 
 Walk-forward back-test: each season is predicted by a model trained only on earlier seasons.
 Settings were chosen on 2022, so the 2023 to 2026 columns are the ones nothing was tuned on.
@@ -65,65 +136,18 @@ What this does and does not show:
   2018 to 2026 that gap is clear in the statistics. It does **not pick the winner better** than
   "the pole sitter wins": 53.4% against 54.5% is inside the noise.
 - Before the weekend it beats "recent driver form" on order, but not on winner calls.
+- Win and podium chances are close to calibrated: a "30%" happens roughly 30% of the time, with an
+  average gap of about 1 percentage point. Retirement chances run too high: 17.3% predicted against
+  14.6% observed over 2018 to 2026.
 - Even 191 races is a small sample for winner calls; a few percentage points either way is noise.
-  Every comparison is tested on the same races with a 95% interval (`reports/backtest_summary.md`).
 
-## Example output
+All comparisons, with their intervals, are in `reports/backtest_summary.md`.
 
-```
-R19 Mexico   2026-11-01  Kimi Antonelli 32% | Max Verstappen 32% | Lewis Hamilton 8%   [before the weekend]
+## What did not help
 
- Pred            Driver      Team P(win) P(podium)
-    1    Kimi Antonelli  Mercedes  32.2%       62%
-    2    Max Verstappen  Red Bull  31.8%       56%
-    3      Lando Norris   Mclaren   7.5%       33%
-    4    Lewis Hamilton   Ferrari   8.4%       34%
-    5     Oscar Piastri   Mclaren   2.7%       16%
-```
-
-*Predicted on 28 October 2026 with models trained through round 18 (the United States GP).*
-
-## Quick start
-
-```bash
-git clone https://github.com/<your-username>/f1-race-predictor.git
-cd f1-race-predictor
-pip install -r requirements.txt
-python run_all.py --out Predictions
-```
-
-That uses the data and trained models in the repository and takes under a minute. The prediction
-files appear in `Predictions/`. Developed and tested on Python 3.13.
-
-To get the latest results first (after a race, or after practice or qualifying), then refit:
-
-```bash
-python run_all.py --refresh --out Predictions
-```
-
-Retraining from scratch (`python fetch_data.py`, then `python train.py`) takes 20 to 30 minutes.
-On Windows or Mac you can also double-click `Run_Predictions` (see `START HERE.txt`).
-
-## How it works
-
-- **Data:** [f1db](https://github.com/f1db/f1db), every race from 2014 (the hybrid era): results,
-  qualifying, practice, pit stops, sprints and standings.
-- **Models:** LightGBM. A ranking model orders the whole field; classifiers give P(win),
-  P(podium) and P(retirement). One set per stage (before the weekend, after practice, after
-  qualifying), each seeing more information than the last.
-- **No peeking at the future:** every form feature uses only races before the one being predicted.
-  `test_no_leakage.py` blanks out what isn't known yet at each stage and checks that the model's
-  inputs don't change.
-- **Championship simulation:** each remaining race is played 20,000 times, with drivers retiring at
-  their predicted rate and random luck whose size was fitted on past seasons. Teams share a pace
-  "shock" that carries from race to race, which fixed ranges that were too narrow when each race was
-  treated as independent.
-
-## What I tried that did not help
-
-Most of the later work was testing ideas fairly and leaving out the ones that failed. An idea is only
-kept if it gives a clear gain, meaning a 95% interval that excludes zero. For the retirement shift I
-tightened that rule after seeing that my first version of it would have accepted a gain inside the noise.
+An idea is only kept if it gives a clear gain, meaning a 95% interval that excludes zero. For the
+retirement shift that rule was tightened after the first version of it would have accepted a gain
+inside the noise.
 
 | idea | result |
 |---|---|
@@ -135,16 +159,36 @@ tightened that rule after seeing that my first version of it would have accepted
 
 Details and numbers for all of these are in [MODEL_NOTES.md](MODEL_NOTES.md).
 
-## Limitations
+## What it is not
 
-- After qualifying, the grid does most of the work.
-- Before the weekend the model is weaker and swings with how dominant the leading car is.
-- Safety cars, first-lap incidents, strategy and weather are not predicted.
-- New regulations (2026) reset the pecking order, and only 18 races of this era exist so far.
-- The daily-update scripts (`Schedule_Windows.bat`, `Schedule_Mac.command`) have not been tested on
-  a real Windows or Mac machine.
+- **Not a winner-picker that beats the pole sitter.** After qualifying, the grid does most of the work.
+- **Weaker before the weekend**, where it swings with how dominant the leading car is.
+- **Blind to chaos.** Safety cars, first-lap incidents, strategy and weather are not predicted.
+- **Working with little data on the newest rules.** The 2026 regulations reset the pecking order, and
+  only 18 races of this era exist so far.
+- **Untested on a real Windows or Mac machine** for the daily-update scripts
+  (`Schedule_Windows.bat`, `Schedule_Mac.command`).
 
-## Repository guide
+## Command reference
+
+| command | what it does |
+|---|---|
+| `python run_all.py --out Predictions` | Everything: score the tracker, predict the remaining races, simulate the championship |
+| `python run_all.py --refresh --out Predictions` | The same, after downloading the latest data and refitting |
+| `python predict.py` | The next race only, at the most informed stage available |
+| `python predict.py --race 2026-18` | Replay a past race using only the races before it |
+| `python predict_season.py` | Every remaining race in one file |
+| `python simulate_season.py --runs 50000` | Championship odds with more simulated seasons |
+| `python tracker.py score` | Score saved predictions against real results |
+| `python odds.py` | Compare with the bookmaker odds in `odds.csv` (`python odds.py template 2026-20` makes a blank sheet) |
+| `python overrides.py check` | Show what each line of `overrides.csv` does |
+| `python lineup.py` | Show the entry list used for each remaining race, and where it came from |
+| `python fetch_data.py`, `python train.py` | Download the data; retrain from scratch (20 to 30 minutes) |
+
+Tests: `python test_no_leakage.py`, `python test_overrides.py`, `python test_lineup.py`,
+`python test_odds.py`.
+
+## What is in the repository
 
 ```
 run_all.py             one command: tracker, predictions, championship, page data
@@ -157,14 +201,11 @@ lineup.py              who is on the grid; overrides.csv for manual changes
 tracker.py             save predictions before a race, score them after
 odds.py / odds.csv     model against bookmaker odds
 ablation.py, recency_test.py, dnf_shift_test.py, season_backtest.py   the experiments above
-test_*.py              tests (no leakage, overrides, line-up, odds)
+test_*.py              the tests
 reports/               back-test, experiments, calibration chart
 data/  models/  tracker/  site_data/   data, trained models, saved predictions, tables for a web page
 MODEL_NOTES.md         the long version: every test and its numbers
 ```
-
-Run the tests with `python test_no_leakage.py`, `python test_overrides.py`, `python test_lineup.py`
-and `python test_odds.py`.
 
 ## Data and credit
 
