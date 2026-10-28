@@ -1,0 +1,23 @@
+saved_at,race_id,stage,trained_through,driver_id,team,pred,p_win,p_podium,p_dnf
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,kimi-antonelli,mercedes,1,0.322,0.6151,0.128
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,max-verstappen,red-bull,2,0.3176,0.5589,0.1345
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,lando-norris,mclaren,3,0.075,0.3306,0.1091
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,lewis-hamilton,ferrari,4,0.0838,0.3438,0.1163
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,oscar-piastri,mclaren,5,0.0273,0.158,0.1134
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,charles-leclerc,ferrari,6,0.0787,0.3641,0.135
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,isack-hadjar,red-bull,7,0.021,0.1597,0.1314
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,george-russell,mercedes,8,0.0529,0.3557,0.1078
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,liam-lawson,racing-bulls,9,0.0027,0.0208,0.1728
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,arvid-lindblad,racing-bulls,10,0.002,0.0166,0.1526
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,pierre-gasly,alpine,11,0.0021,0.0156,0.1599
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,franco-colapinto,alpine,12,0.0018,0.0072,0.1706
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,nico-hulkenberg,sauber,13,0.0018,0.0094,0.1608
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,oliver-bearman,haas,14,0.0013,0.0061,0.1621
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,gabriel-bortoleto,sauber,15,0.0016,0.0063,0.1588
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,esteban-ocon,haas,16,0.0012,0.006,0.1697
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,carlos-sainz-jr,williams,17,0.0013,0.0048,0.2407
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,alexander-albon,williams,18,0.0013,0.0042,0.2823
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,valtteri-bottas,cadillac,19,0.0013,0.0042,0.2996
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,fernando-alonso,aston-martin,20,0.0012,0.0044,0.2699
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,lance-stroll,aston-martin,21,0.0011,0.0039,0.2944
+2026-10-28 01:02 UTC,2026-19,pre,2026-18,sergio-perez,cadillac,22,0.0012,0.0046,0.2658
