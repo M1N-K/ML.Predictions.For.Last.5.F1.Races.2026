@@ -1,0 +1,155 @@
+{
+ "trained_through": "2026-18",
+ "best_params": {
+  "pre": [
+   7,
+   600
+  ],
+  "fp": [
+   7,
+   150
+  ],
+  "post": [
+   31,
+   150
+  ],
+  "pre_v1": [
+   15,
+   150
+  ],
+  "post_v1": [
+   15,
+   150
+  ]
+ },
+ "best_params_clf": {
+  "pre": [
+   4,
+   200
+  ],
+  "fp": [
+   4,
+   200
+  ],
+  "post": [
+   4,
+   200
+  ],
+  "pre_v1": [
+   4,
+   200
+  ],
+  "post_v1": [
+   4,
+   200
+  ]
+ },
+ "pl_tau": {
+  "pre": 0.8,
+  "fp": 0.7,
+  "post": 0.5
+ },
+ "overall": {
+  "post (after qualifying)": {
+   "winner_hit": 0.534,
+   "podium_overlap": 0.6824,
+   "top10_overlap": 0.7843,
+   "spearman": 0.6657,
+   "mae_pos": 3.2921
+  },
+  "post, first version": {
+   "winner_hit": 0.5497,
+   "podium_overlap": 0.6736,
+   "top10_overlap": 0.7801,
+   "spearman": 0.6637,
+   "mae_pos": 3.3232
+  },
+  "baseline: grid order": {
+   "winner_hit": 0.5445,
+   "podium_overlap": 0.6894,
+   "top10_overlap": 0.7644,
+   "spearman": 0.628,
+   "mae_pos": 3.4632
+  },
+  "fp (after practice)": {
+   "winner_hit": 0.466,
+   "podium_overlap": 0.5916,
+   "top10_overlap": 0.7576,
+   "spearman": 0.6255,
+   "mae_pos": 3.6179
+  },
+  "pre (before the weekend)": {
+   "winner_hit": 0.4346,
+   "podium_overlap": 0.5864,
+   "top10_overlap": 0.7455,
+   "spearman": 0.6028,
+   "mae_pos": 3.747
+  },
+  "pre, first version": {
+   "winner_hit": 0.4712,
+   "podium_overlap": 0.5934,
+   "top10_overlap": 0.7445,
+   "spearman": 0.6053,
+   "mae_pos": 3.7343
+  },
+  "baseline: recent driver form": {
+   "winner_hit": 0.4398,
+   "podium_overlap": 0.5445,
+   "top10_overlap": 0.7387,
+   "spearman": 0.5837,
+   "mae_pos": 3.8479
+  }
+ },
+ "overall_clean": {
+  "post (after qualifying)": {
+   "winner_hit": 0.625,
+   "podium_overlap": 0.6742,
+   "top10_overlap": 0.8023,
+   "spearman": 0.6945,
+   "mae_pos": 3.1241
+  },
+  "post, first version": {
+   "winner_hit": 0.6591,
+   "podium_overlap": 0.6477,
+   "top10_overlap": 0.7966,
+   "spearman": 0.6925,
+   "mae_pos": 3.1472
+  },
+  "baseline: grid order": {
+   "winner_hit": 0.6136,
+   "podium_overlap": 0.678,
+   "top10_overlap": 0.7818,
+   "spearman": 0.6644,
+   "mae_pos": 3.27
+  },
+  "fp (after practice)": {
+   "winner_hit": 0.4432,
+   "podium_overlap": 0.5417,
+   "top10_overlap": 0.7693,
+   "spearman": 0.6322,
+   "mae_pos": 3.6142
+  },
+  "pre (before the weekend)": {
+   "winner_hit": 0.4205,
+   "podium_overlap": 0.553,
+   "top10_overlap": 0.7636,
+   "spearman": 0.6215,
+   "mae_pos": 3.6673
+  },
+  "pre, first version": {
+   "winner_hit": 0.4205,
+   "podium_overlap": 0.5492,
+   "top10_overlap": 0.7636,
+   "spearman": 0.6216,
+   "mae_pos": 3.6677
+  },
+  "baseline: recent driver form": {
+   "winner_hit": 0.3977,
+   "podium_overlap": 0.5265,
+   "top10_overlap": 0.7534,
+   "spearman": 0.6034,
+   "mae_pos": 3.7494
+  }
+ },
+ "clean_from": 2023
+}

@@ -1,0 +1,135 @@
+2026 F1 season: predictions for the remaining 5 races
+Models trained on all races through 2026-18. Top 3 by win probability per race:
+
+R19 Mexico         2026-11-01  Kimi Antonelli 34% | Max Verstappen 31% | Lando Norris 9%
+R20 Sao Paulo      2026-11-08  Max Verstappen 35% | Kimi Antonelli 25% | Lando Norris 11%
+R21 Las Vegas      2026-11-22  Max Verstappen 36% | Kimi Antonelli 25% | Lando Norris 10%
+R22 Qatar          2026-11-29  Max Verstappen 31% | Kimi Antonelli 27% | Lando Norris 9%
+R23 Abu Dhabi      2026-12-06  Kimi Antonelli 38% | Max Verstappen 31% | Lewis Hamilton 6%
+
+=== Round 19: Mexico GP, 2026-11-01 (before qualifying) ===
+ Pred            Driver         Team P(win) P(podium)
+    1    Kimi Antonelli     Mercedes  34.1%       64%
+    2    Max Verstappen     Red Bull  30.6%       64%
+    3      Lando Norris      Mclaren   9.2%       32%
+    4    Lewis Hamilton      Ferrari   6.3%       29%
+    5   Charles Leclerc      Ferrari   5.4%       32%
+    6    George Russell     Mercedes   4.9%       37%
+    7     Oscar Piastri      Mclaren   4.4%       17%
+    8      Isack Hadjar     Red Bull   2.1%       14%
+    9       Liam Lawson Racing Bulls   0.4%        2%
+   10    Arvid Lindblad Racing Bulls   0.3%        2%
+   11      Pierre Gasly       Alpine   0.3%        2%
+   12   Nico Hulkenberg       Sauber   0.2%        1%
+   13  Franco Colapinto       Alpine   0.2%        1%
+   14    Oliver Bearman         Haas   0.2%        1%
+   15 Gabriel Bortoleto       Sauber   0.2%        1%
+   16      Esteban Ocon         Haas   0.2%        1%
+   17   Carlos Sainz Jr     Williams   0.2%        1%
+   18   Valtteri Bottas     Cadillac   0.2%        1%
+   19   Fernando Alonso Aston Martin   0.2%        1%
+   20   Alexander Albon     Williams   0.2%        1%
+   21      Lance Stroll Aston Martin   0.2%        1%
+   22      Sergio Perez     Cadillac   0.2%        1%
+
+=== Round 20: Sao Paulo GP, 2026-11-08 (before qualifying) ===
+ Pred            Driver         Team P(win) P(podium)
+    1    Kimi Antonelli     Mercedes  25.2%       64%
+    2    Max Verstappen     Red Bull  34.7%       64%
+    3      Lando Norris      Mclaren  10.5%       29%
+    4    Lewis Hamilton      Ferrari   6.8%       27%
+    5   Charles Leclerc      Ferrari   8.1%       34%
+    6    George Russell     Mercedes   4.8%       36%
+    7     Oscar Piastri      Mclaren   3.9%       16%
+    8      Isack Hadjar     Red Bull   2.9%       16%
+    9       Liam Lawson Racing Bulls   0.4%        2%
+   10    Arvid Lindblad Racing Bulls   0.3%        2%
+   11      Pierre Gasly       Alpine   0.3%        2%
+   12   Nico Hulkenberg       Sauber   0.2%        1%
+   13  Franco Colapinto       Alpine   0.2%        1%
+   14    Oliver Bearman         Haas   0.2%        1%
+   15 Gabriel Bortoleto       Sauber   0.2%        1%
+   16      Esteban Ocon         Haas   0.2%        1%
+   17   Carlos Sainz Jr     Williams   0.2%        1%
+   18   Fernando Alonso Aston Martin   0.2%        1%
+   19   Alexander Albon     Williams   0.2%        1%
+   20      Lance Stroll Aston Martin   0.2%        1%
+   21      Sergio Perez     Cadillac   0.2%        1%
+   22   Valtteri Bottas     Cadillac   0.2%        1%
+
+=== Round 21: Las Vegas GP, 2026-11-22 (before qualifying) ===
+ Pred            Driver         Team P(win) P(podium)
+    1    Kimi Antonelli     Mercedes  25.0%       62%
+    2    Max Verstappen     Red Bull  35.7%       68%
+    3      Lando Norris      Mclaren   9.8%       25%
+    4    Lewis Hamilton      Ferrari   7.0%       27%
+    5   Charles Leclerc      Ferrari   6.8%       33%
+    6    George Russell     Mercedes   4.2%       34%
+    7     Oscar Piastri      Mclaren   4.3%       17%
+    8      Isack Hadjar     Red Bull   3.7%       19%
+    9       Liam Lawson Racing Bulls   0.5%        3%
+   10    Arvid Lindblad Racing Bulls   0.3%        2%
+   11      Pierre Gasly       Alpine   0.3%        2%
+   12   Nico Hulkenberg       Sauber   0.2%        1%
+   13  Franco Colapinto       Alpine   0.2%        1%
+   14    Oliver Bearman         Haas   0.2%        1%
+   15 Gabriel Bortoleto       Sauber   0.2%        1%
+   16      Esteban Ocon         Haas   0.2%        1%
+   17   Carlos Sainz Jr     Williams   0.2%        1%
+   18      Sergio Perez     Cadillac   0.2%        1%
+   19   Fernando Alonso Aston Martin   0.2%        1%
+   20   Alexander Albon     Williams   0.2%        1%
+   21      Lance Stroll Aston Martin   0.2%        1%
+   22   Valtteri Bottas     Cadillac   0.2%        1%
+
+=== Round 22: Qatar GP, 2026-11-29 (before qualifying) ===
+ Pred            Driver         Team P(win) P(podium)
+    1    Kimi Antonelli     Mercedes  27.3%       63%
+    2    Max Verstappen     Red Bull  30.9%       67%
+    3      Lando Norris      Mclaren   9.4%       27%
+    4    Lewis Hamilton      Ferrari   8.5%       28%
+    5   Charles Leclerc      Ferrari   8.2%       30%
+    6    George Russell     Mercedes   6.3%       42%
+    7     Oscar Piastri      Mclaren   4.1%       16%
+    8      Isack Hadjar     Red Bull   2.0%       14%
+    9       Liam Lawson Racing Bulls   0.4%        2%
+   10    Arvid Lindblad Racing Bulls   0.3%        2%
+   11      Pierre Gasly       Alpine   0.3%        2%
+   12   Nico Hulkenberg       Sauber   0.2%        1%
+   13  Franco Colapinto       Alpine   0.2%        1%
+   14    Oliver Bearman         Haas   0.2%        1%
+   15 Gabriel Bortoleto       Sauber   0.2%        1%
+   16      Esteban Ocon         Haas   0.2%        1%
+   17   Carlos Sainz Jr     Williams   0.2%        1%
+   18   Fernando Alonso Aston Martin   0.2%        1%
+   19   Alexander Albon     Williams   0.2%        1%
+   20      Lance Stroll Aston Martin   0.2%        1%
+   21      Sergio Perez     Cadillac   0.2%        1%
+   22   Valtteri Bottas     Cadillac   0.2%        1%
+
+=== Round 23: Abu Dhabi GP, 2026-12-06 (before qualifying) ===
+ Pred            Driver         Team P(win) P(podium)
+    1    Kimi Antonelli     Mercedes  38.2%       67%
+    2    Max Verstappen     Red Bull  30.8%       66%
+    3      Lando Norris      Mclaren   4.8%       28%
+    4    Lewis Hamilton      Ferrari   6.4%       30%
+    5   Charles Leclerc      Ferrari   4.6%       30%
+    6    George Russell     Mercedes   6.4%       36%
+    7     Oscar Piastri      Mclaren   3.5%       15%
+    8      Isack Hadjar     Red Bull   1.7%       14%
+    9       Liam Lawson Racing Bulls   0.4%        3%
+   10    Arvid Lindblad Racing Bulls   0.3%        2%
+   11      Pierre Gasly       Alpine   0.3%        2%
+   12   Nico Hulkenberg       Sauber   0.3%        1%
+   13  Franco Colapinto       Alpine   0.3%        1%
+   14    Oliver Bearman         Haas   0.2%        1%
+   15 Gabriel Bortoleto       Sauber   0.3%        1%
+   16      Esteban Ocon         Haas   0.2%        1%
+   17   Carlos Sainz Jr     Williams   0.2%        1%
+   18   Fernando Alonso Aston Martin   0.2%        1%
+   19   Alexander Albon     Williams   0.2%        1%
+   20      Lance Stroll Aston Martin   0.2%        1%
+   21      Sergio Perez     Cadillac   0.2%        1%
+   22   Valtteri Bottas     Cadillac   0.2%        1%
+
+Notes: entry list assumed to be the latest race's line-up. Later races are less certain (the model can't know what happens in the races before them). Not betting advice.

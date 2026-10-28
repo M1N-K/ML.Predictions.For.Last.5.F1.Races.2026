@@ -1,0 +1,11 @@
+Driver,Title %,Top 3 %,Now,Expected pts,Range (10-90%)
+Kimi Antonelli,>99.9,100,365,436,410-463
+Max Verstappen,0,71,236,306,280-334
+Lewis Hamilton,<0.1,57,241,298,274-323
+George Russell,<0.1,37,242,289,267-312
+Charles Leclerc,0,26,233,284,261-309
+Lando Norris,0,10,211,268,245-293
+Oscar Piastri,0,0,144,193,171-216
+Isack Hadjar,0,0,105,150,129-173
+Liam Lawson,0,0,77,90,79-103
+Pierre Gasly,0,0,42,50,42-60

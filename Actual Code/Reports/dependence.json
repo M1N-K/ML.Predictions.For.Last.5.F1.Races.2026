@@ -1,0 +1,10 @@
+{
+ "dependence": {
+  "sd_team": 0.45,
+  "sd_driver": 0.15,
+  "rho": 1.0,
+  "sd_rel": 0.0,
+  "rho_rel": 0.5
+ },
+ "tau_pre": 0.8
+}

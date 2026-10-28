@@ -1,0 +1,37 @@
+2026 F1 CHAMPIONSHIP SIMULATION
+
+20,000 simulated runs of the remaining 5 races, starting from the real standings. Models trained through 2026-18.
+
+Right now: Kimi Antonelli leads on 365 points, 123 ahead of George Russell. Most points still available: 125.
+Still mathematically alive for the drivers' title: George Russell, Lewis Hamilton
+
+DRIVERS' CHAMPIONSHIP
+         Driver Title %  Top 3 %  Now  Expected pts Range (10-90%)
+ Kimi Antonelli   >99.9      100  365           437        413-459
+ Max Verstappen       0       77  236           307        284-330
+ Lewis Hamilton    <0.1       59  241           298        277-319
+ George Russell    <0.1       33  242           289        270-308
+Charles Leclerc       0       24  233           284        264-305
+   Lando Norris       0        6  211           268        247-289
+  Oscar Piastri       0        0  144           193        174-213
+   Isack Hadjar       0        0  105           150        131-170
+    Liam Lawson       0        0   77            89         80-101
+   Pierre Gasly       0        0   42            49          43-58
+
+CONSTRUCTORS' CHAMPIONSHIP
+ Constructor Title %  Top 3 %  Now  Expected pts Range (10-90%)
+    Mercedes   >99.9      100  607           725        697-753
+     Ferrari    <0.1      100  474           582        555-610
+    Red Bull       0       61  355           471        443-499
+     Mclaren       0       39  355           461        434-488
+Racing Bulls       0        0  102           123        110-138
+      Alpine       0        0   69            82          72-93
+
+WHEN COULD THE DRIVERS' TITLE BE DECIDED? (chance it is settled by the end of each race)
+  Mexico         2026-11-01     97%
+  Sao Paulo      2026-11-08    100%
+  Las Vegas      2026-11-22    100%
+  Qatar          2026-11-29    100%
+  Abu Dhabi      2026-12-06    100%
+
+How to read it: 'Title %' is the share of simulated seasons that driver/team won; 'Range' covers the middle 80% of simulated final points totals. Odds are only as good as the model, which cannot know about crashes, reliability problems, penalties, weather or upgrades beyond what recent results already show. Not betting advice.

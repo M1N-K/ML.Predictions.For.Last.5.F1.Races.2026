@@ -1,0 +1,31 @@
+
+2026 round 19: Mexico GP, 2026-11-01
+Prediction before the weekend (form only); models trained on all races through 2026-18.
+
+ Pred            Driver         Team P(win) P(podium)
+    1    Kimi Antonelli     Mercedes  32.2%       62%
+    2    Max Verstappen     Red Bull  31.8%       56%
+    3      Lando Norris      Mclaren   7.5%       33%
+    4    Lewis Hamilton      Ferrari   8.4%       34%
+    5     Oscar Piastri      Mclaren   2.7%       16%
+    6   Charles Leclerc      Ferrari   7.9%       36%
+    7      Isack Hadjar     Red Bull   2.1%       16%
+    8    George Russell     Mercedes   5.3%       36%
+    9       Liam Lawson Racing Bulls   0.3%        2%
+   10    Arvid Lindblad Racing Bulls   0.2%        2%
+   11      Pierre Gasly       Alpine   0.2%        2%
+   12  Franco Colapinto       Alpine   0.2%        1%
+   13   Nico Hulkenberg       Sauber   0.2%        1%
+   14    Oliver Bearman         Haas   0.1%        1%
+   15 Gabriel Bortoleto       Sauber   0.2%        1%
+   16      Esteban Ocon         Haas   0.1%        1%
+   17   Carlos Sainz Jr     Williams   0.1%        0%
+   18   Alexander Albon     Williams   0.1%        0%
+   19   Valtteri Bottas     Cadillac   0.1%        0%
+   20   Fernando Alonso Aston Martin   0.1%        0%
+   21      Lance Stroll Aston Martin   0.1%        0%
+   22      Sergio Perez     Cadillac   0.1%        0%
+
+Most likely winner by win probability: Kimi Antonelli (32%)
+Entry list: the latest race's line-up, adjusted by the season's entrant list and practice attendance where they say something different. Re-run after practice and again after qualifying for sharper calls.
+Saved to the prediction tracker (pre stage), to be scored after the race.

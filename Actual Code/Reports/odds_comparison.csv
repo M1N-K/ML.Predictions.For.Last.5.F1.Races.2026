@@ -1,0 +1,2 @@
+race_id,stage,winner,n_sources,model_p_winner,model_logscore,model_brier,model_top_pick_won,market_p_winner,market_logscore,market_brier,market_top_pick_won
+2026-18,pre,kimi-antonelli,1,0.1922372155628032,1.649025171830672,0.8566485774875403,False,0.2551488029048748,1.365908363214008,0.7177201427291523,False

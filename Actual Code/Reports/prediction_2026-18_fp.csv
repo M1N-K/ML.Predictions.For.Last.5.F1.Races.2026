@@ -1,0 +1,23 @@
+Pred,Driver,Team,P(win),P(podium),Actual
+1,Kimi Antonelli,Mercedes,18.3%,55%,1
+2,Max Verstappen,Red Bull,36.0%,55%,3
+3,Charles Leclerc,Ferrari,16.2%,41%,2
+4,Lewis Hamilton,Ferrari,14.9%,40%,4
+5,George Russell,Mercedes,3.8%,35%,8
+6,Lando Norris,Mclaren,5.0%,36%,5
+7,Oscar Piastri,Mclaren,1.6%,16%,7
+8,Isack Hadjar,Red Bull,1.6%,8%,6
+9,Arvid Lindblad,Racing Bulls,0.2%,2%,12
+10,Liam Lawson,Racing Bulls,0.2%,3%,9
+11,Nico Hulkenberg,Sauber,0.3%,1%,11
+12,Gabriel Bortoleto,Sauber,0.3%,1%,13
+13,Pierre Gasly,Alpine,0.2%,1%,10
+14,Franco Colapinto,Alpine,0.2%,1%,21
+15,Oliver Bearman,Haas,0.1%,1%,22
+16,Esteban Ocon,Haas,0.1%,1%,14
+17,Fernando Alonso,Aston Martin,0.2%,1%,16
+18,Carlos Sainz Jr,Williams,0.2%,0%,18
+19,Lance Stroll,Aston Martin,0.1%,0%,15
+20,Alexander Albon,Williams,0.1%,0%,17
+21,Sergio Perez,Cadillac,0.2%,0%,19
+22,Valtteri Bottas,Cadillac,0.1%,0%,20

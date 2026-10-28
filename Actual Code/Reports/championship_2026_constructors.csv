@@ -1,0 +1,7 @@
+Constructor,Title %,Top 3 %,Now,Expected pts,Range (10-90%)
+Mercedes,>99.9,100,607,725,687-763
+Ferrari,0.1,100,474,582,546-620
+Red Bull,0,59,355,471,433-508
+Mclaren,0,41,355,461,425-498
+Racing Bulls,0,0,102,123,108-142
+Alpine,0,0,69,82,71-96
