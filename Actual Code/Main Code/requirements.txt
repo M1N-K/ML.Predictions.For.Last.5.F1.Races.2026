@@ -1,0 +1,9 @@
+pandas>=2.2
+numpy
+scipy
+scikit-learn
+lightgbm>=4.0
+matplotlib
+joblib
+pyyaml
+requests
