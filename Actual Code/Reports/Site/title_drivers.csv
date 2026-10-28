@@ -1,0 +1,11 @@
+driver,team,now,title_pct,top3_pct,expected_pts,p10,p90
+Kimi Antonelli,Mercedes,365,100.0,100.0,436,410,463
+Max Verstappen,Red Bull,236,0.0,70.8,306,280,334
+Lewis Hamilton,Ferrari,241,0.0,56.6,298,274,323
+George Russell,Mercedes,242,0.0,36.6,289,267,312
+Charles Leclerc,Ferrari,233,0.0,25.6,284,261,309
+Lando Norris,Mclaren,211,0.0,10.4,268,245,293
+Oscar Piastri,Mclaren,144,0.0,0.0,193,171,216
+Isack Hadjar,Red Bull,105,0.0,0.0,150,129,173
+Liam Lawson,Racing Bulls,77,0.0,0.0,90,79,103
+Pierre Gasly,Alpine,42,0.0,0.0,50,42,60
