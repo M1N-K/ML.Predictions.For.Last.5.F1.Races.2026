@@ -1,0 +1,7 @@
+team,now,title_pct,top3_pct,expected_pts,p10,p90
+Mercedes,607,99.95,100.0,725,687,763
+Ferrari,474,0.05,100.0,582,546,620
+Red Bull,355,0.0,58.6,471,433,508
+Mclaren,355,0.0,41.4,461,425,498
+Racing Bulls,102,0.0,0.0,123,108,142
+Alpine,69,0.0,0.0,82,71,96

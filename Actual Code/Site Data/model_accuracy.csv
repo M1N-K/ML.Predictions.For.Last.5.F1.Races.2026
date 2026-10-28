@@ -1,0 +1,8 @@
+model,races,winner_hit_pct,podium_right,top10_right,spearman,avg_position_error,kind
+baseline: grid order,191,54.5,2.07,7.64,0.628,3.46,baseline
+baseline: recent driver form,191,44.0,1.63,7.39,0.584,3.85,baseline
+fp (after practice),191,46.6,1.77,7.58,0.626,3.62,model
+post (after qualifying),191,53.4,2.05,7.84,0.666,3.29,model
+"post, first version",191,55.0,2.02,7.8,0.664,3.32,earlier version
+pre (before the weekend),191,43.5,1.76,7.46,0.603,3.75,model
+"pre, first version",191,47.1,1.78,7.45,0.605,3.73,earlier version

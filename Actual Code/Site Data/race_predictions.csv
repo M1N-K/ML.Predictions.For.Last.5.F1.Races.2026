@@ -1,0 +1,111 @@
+row_id,race_id,grand_prix,round,date,stage,stage_label,is_sprint,pred,driver,team,grid,p_win,p_podium,p_dnf
+2026-19|kimi-antonelli,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,1,Kimi Antonelli,Mercedes,,0.322,0.6151,0.128
+2026-19|max-verstappen,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,2,Max Verstappen,Red Bull,,0.3176,0.5589,0.1345
+2026-19|lando-norris,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,3,Lando Norris,Mclaren,,0.075,0.3306,0.1091
+2026-19|lewis-hamilton,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,4,Lewis Hamilton,Ferrari,,0.0838,0.3438,0.1163
+2026-19|oscar-piastri,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,5,Oscar Piastri,Mclaren,,0.0273,0.158,0.1134
+2026-19|charles-leclerc,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,6,Charles Leclerc,Ferrari,,0.0787,0.3641,0.135
+2026-19|isack-hadjar,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,7,Isack Hadjar,Red Bull,,0.021,0.1597,0.1314
+2026-19|george-russell,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,8,George Russell,Mercedes,,0.0529,0.3557,0.1078
+2026-19|liam-lawson,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,9,Liam Lawson,Racing Bulls,,0.0027,0.0208,0.1728
+2026-19|arvid-lindblad,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,10,Arvid Lindblad,Racing Bulls,,0.002,0.0166,0.1526
+2026-19|pierre-gasly,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,11,Pierre Gasly,Alpine,,0.0021,0.0156,0.1599
+2026-19|franco-colapinto,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,12,Franco Colapinto,Alpine,,0.0018,0.0072,0.1706
+2026-19|nico-hulkenberg,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,13,Nico Hulkenberg,Sauber,,0.0018,0.0094,0.1608
+2026-19|oliver-bearman,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,14,Oliver Bearman,Haas,,0.0013,0.0061,0.1621
+2026-19|gabriel-bortoleto,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,15,Gabriel Bortoleto,Sauber,,0.0016,0.0063,0.1588
+2026-19|esteban-ocon,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,16,Esteban Ocon,Haas,,0.0012,0.006,0.1697
+2026-19|carlos-sainz-jr,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,17,Carlos Sainz Jr,Williams,,0.0013,0.0048,0.2407
+2026-19|alexander-albon,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,18,Alexander Albon,Williams,,0.0013,0.0042,0.2823
+2026-19|valtteri-bottas,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,19,Valtteri Bottas,Cadillac,,0.0013,0.0042,0.2996
+2026-19|fernando-alonso,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,20,Fernando Alonso,Aston Martin,,0.0012,0.0044,0.2699
+2026-19|lance-stroll,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,21,Lance Stroll,Aston Martin,,0.0011,0.0039,0.2944
+2026-19|sergio-perez,2026-19,Mexico,19,2026-11-01,pre,before the weekend (form only),0,22,Sergio Perez,Cadillac,,0.0012,0.0046,0.2658
+2026-20|max-verstappen,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,1,Max Verstappen,Red Bull,,0.3451,0.5543,0.1744
+2026-20|kimi-antonelli,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,2,Kimi Antonelli,Mercedes,,0.2934,0.6106,0.1655
+2026-20|lando-norris,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,3,Lando Norris,Mclaren,,0.0714,0.3291,0.1493
+2026-20|lewis-hamilton,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,4,Lewis Hamilton,Ferrari,,0.0869,0.343,0.1441
+2026-20|charles-leclerc,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,5,Charles Leclerc,Ferrari,,0.0839,0.3589,0.1662
+2026-20|isack-hadjar,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,6,Isack Hadjar,Red Bull,,0.0225,0.1678,0.1638
+2026-20|oscar-piastri,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,7,Oscar Piastri,Mclaren,,0.0238,0.1597,0.1523
+2026-20|george-russell,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,8,George Russell,Mercedes,,0.0514,0.3581,0.1409
+2026-20|liam-lawson,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,9,Liam Lawson,Racing Bulls,,0.0028,0.0226,0.205
+2026-20|arvid-lindblad,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,10,Arvid Lindblad,Racing Bulls,,0.002,0.0174,0.1844
+2026-20|pierre-gasly,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,11,Pierre Gasly,Alpine,,0.002,0.0166,0.1916
+2026-20|franco-colapinto,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,12,Franco Colapinto,Alpine,,0.0018,0.0076,0.1948
+2026-20|nico-hulkenberg,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,13,Nico Hulkenberg,Sauber,,0.0018,0.0097,0.1921
+2026-20|oliver-bearman,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,14,Oliver Bearman,Haas,,0.0013,0.0062,0.1884
+2026-20|gabriel-bortoleto,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,15,Gabriel Bortoleto,Sauber,,0.0015,0.0064,0.1895
+2026-20|esteban-ocon,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,16,Esteban Ocon,Haas,,0.0012,0.0059,0.1943
+2026-20|carlos-sainz-jr,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,17,Carlos Sainz Jr,Williams,,0.0013,0.0048,0.2512
+2026-20|fernando-alonso,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,18,Fernando Alonso,Aston Martin,,0.0012,0.0046,0.2734
+2026-20|sergio-perez,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,19,Sergio Perez,Cadillac,,0.0012,0.0045,0.262
+2026-20|alexander-albon,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,20,Alexander Albon,Williams,,0.0012,0.0041,0.2907
+2026-20|valtteri-bottas,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,21,Valtteri Bottas,Cadillac,,0.0012,0.0042,0.2892
+2026-20|lance-stroll,2026-20,Sao Paulo,20,2026-11-08,pre,before the weekend (form only),0,22,Lance Stroll,Aston Martin,,0.0011,0.0037,0.2807
+2026-21|max-verstappen,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,1,Max Verstappen,Red Bull,,0.3468,0.5825,0.1283
+2026-21|kimi-antonelli,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,2,Kimi Antonelli,Mercedes,,0.2951,0.5918,0.132
+2026-21|lewis-hamilton,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,3,Lewis Hamilton,Ferrari,,0.0832,0.3546,0.1126
+2026-21|lando-norris,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,4,Lando Norris,Mclaren,,0.0728,0.331,0.1203
+2026-21|charles-leclerc,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,5,Charles Leclerc,Ferrari,,0.0812,0.3755,0.1322
+2026-21|oscar-piastri,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,6,Oscar Piastri,Mclaren,,0.0248,0.1593,0.1194
+2026-21|isack-hadjar,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,7,Isack Hadjar,Red Bull,,0.0225,0.1721,0.1182
+2026-21|george-russell,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,8,George Russell,Mercedes,,0.0517,0.3127,0.109
+2026-21|liam-lawson,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,9,Liam Lawson,Racing Bulls,,0.0029,0.0223,0.178
+2026-21|arvid-lindblad,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,10,Arvid Lindblad,Racing Bulls,,0.002,0.0177,0.1538
+2026-21|pierre-gasly,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,11,Pierre Gasly,Alpine,,0.002,0.0164,0.1763
+2026-21|nico-hulkenberg,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,12,Nico Hulkenberg,Sauber,,0.0018,0.0102,0.165
+2026-21|franco-colapinto,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,13,Franco Colapinto,Alpine,,0.0018,0.0077,0.1754
+2026-21|oliver-bearman,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,14,Oliver Bearman,Haas,,0.0012,0.0065,0.1643
+2026-21|gabriel-bortoleto,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,15,Gabriel Bortoleto,Sauber,,0.0016,0.0066,0.1671
+2026-21|esteban-ocon,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,16,Esteban Ocon,Haas,,0.0012,0.0063,0.1758
+2026-21|carlos-sainz-jr,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,17,Carlos Sainz Jr,Williams,,0.0013,0.0049,0.2319
+2026-21|sergio-perez,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,18,Sergio Perez,Cadillac,,0.0012,0.0047,0.2491
+2026-21|fernando-alonso,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,19,Fernando Alonso,Aston Martin,,0.0012,0.0048,0.2792
+2026-21|alexander-albon,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,20,Alexander Albon,Williams,,0.0012,0.0042,0.2849
+2026-21|valtteri-bottas,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,21,Valtteri Bottas,Cadillac,,0.0012,0.0042,0.2994
+2026-21|lance-stroll,2026-21,Las Vegas,21,2026-11-22,pre,before the weekend (form only),0,22,Lance Stroll,Aston Martin,,0.0011,0.004,0.2915
+2026-22|max-verstappen,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,1,Max Verstappen,Red Bull,,0.3165,0.5909,0.1537
+2026-22|kimi-antonelli,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,2,Kimi Antonelli,Mercedes,,0.3227,0.6071,0.1453
+2026-22|lewis-hamilton,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,3,Lewis Hamilton,Ferrari,,0.09,0.3533,0.1403
+2026-22|lando-norris,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,4,Lando Norris,Mclaren,,0.0674,0.3001,0.1361
+2026-22|charles-leclerc,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,5,Charles Leclerc,Ferrari,,0.0766,0.381,0.1529
+2026-22|george-russell,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,6,George Russell,Mercedes,,0.0606,0.327,0.1233
+2026-22|oscar-piastri,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,7,Oscar Piastri,Mclaren,,0.0233,0.1486,0.142
+2026-22|isack-hadjar,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,8,Isack Hadjar,Red Bull,,0.0196,0.1687,0.1479
+2026-22|liam-lawson,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,9,Liam Lawson,Racing Bulls,,0.0031,0.0229,0.199
+2026-22|arvid-lindblad,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,10,Arvid Lindblad,Racing Bulls,,0.0021,0.0182,0.1715
+2026-22|pierre-gasly,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,11,Pierre Gasly,Alpine,,0.0022,0.0174,0.1786
+2026-22|franco-colapinto,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,12,Franco Colapinto,Alpine,,0.0019,0.008,0.1857
+2026-22|nico-hulkenberg,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,13,Nico Hulkenberg,Sauber,,0.0019,0.0102,0.1797
+2026-22|gabriel-bortoleto,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,14,Gabriel Bortoleto,Sauber,,0.0017,0.0069,0.1712
+2026-22|oliver-bearman,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,15,Oliver Bearman,Haas,,0.0013,0.0064,0.1806
+2026-22|esteban-ocon,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,16,Esteban Ocon,Haas,,0.0012,0.006,0.183
+2026-22|carlos-sainz-jr,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,17,Carlos Sainz Jr,Williams,,0.0014,0.0051,0.2221
+2026-22|fernando-alonso,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,18,Fernando Alonso,Aston Martin,,0.0012,0.0049,0.2425
+2026-22|alexander-albon,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,19,Alexander Albon,Williams,,0.0013,0.0043,0.2741
+2026-22|valtteri-bottas,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,20,Valtteri Bottas,Cadillac,,0.0013,0.0043,0.2735
+2026-22|sergio-perez,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,21,Sergio Perez,Cadillac,,0.0013,0.0048,0.2426
+2026-22|lance-stroll,2026-22,Qatar,22,2026-11-29,pre,before the weekend (form only),0,22,Lance Stroll,Aston Martin,,0.0012,0.004,0.2678
+2026-23|kimi-antonelli,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,1,Kimi Antonelli,Mercedes,,0.3646,0.6375,0.1367
+2026-23|max-verstappen,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,2,Max Verstappen,Red Bull,,0.3028,0.5679,0.1284
+2026-23|lando-norris,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,3,Lando Norris,Mclaren,,0.0589,0.3161,0.1126
+2026-23|lewis-hamilton,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,4,Lewis Hamilton,Ferrari,,0.0757,0.3395,0.1172
+2026-23|charles-leclerc,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,5,Charles Leclerc,Ferrari,,0.0703,0.3684,0.1299
+2026-23|oscar-piastri,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,6,Oscar Piastri,Mclaren,,0.0223,0.1449,0.1177
+2026-23|george-russell,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,7,George Russell,Mercedes,,0.0615,0.3354,0.1083
+2026-23|isack-hadjar,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,8,Isack Hadjar,Red Bull,,0.0184,0.1615,0.1285
+2026-23|liam-lawson,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,9,Liam Lawson,Racing Bulls,,0.0033,0.0232,0.1741
+2026-23|arvid-lindblad,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,10,Arvid Lindblad,Racing Bulls,,0.0023,0.0185,0.1538
+2026-23|pierre-gasly,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,11,Pierre Gasly,Alpine,,0.0023,0.0176,0.163
+2026-23|nico-hulkenberg,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,12,Nico Hulkenberg,Sauber,,0.0021,0.011,0.1624
+2026-23|franco-colapinto,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,13,Franco Colapinto,Alpine,,0.0021,0.0082,0.172
+2026-23|gabriel-bortoleto,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,14,Gabriel Bortoleto,Sauber,,0.0018,0.0072,0.1604
+2026-23|oliver-bearman,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,15,Oliver Bearman,Haas,,0.0014,0.0071,0.1585
+2026-23|esteban-ocon,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,16,Esteban Ocon,Haas,,0.0014,0.0069,0.1684
+2026-23|carlos-sainz-jr,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,17,Carlos Sainz Jr,Williams,,0.0015,0.0054,0.2306
+2026-23|fernando-alonso,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,18,Fernando Alonso,Aston Martin,,0.0014,0.0052,0.2681
+2026-23|alexander-albon,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,19,Alexander Albon,Williams,,0.0015,0.0046,0.2711
+2026-23|valtteri-bottas,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,20,Valtteri Bottas,Cadillac,,0.0015,0.0047,0.2898
+2026-23|lance-stroll,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,21,Lance Stroll,Aston Martin,,0.0013,0.0043,0.2866
+2026-23|sergio-perez,2026-23,Abu Dhabi,23,2026-12-06,pre,before the weekend (form only),0,22,Sergio Perez,Cadillac,,0.0015,0.0051,0.2511
