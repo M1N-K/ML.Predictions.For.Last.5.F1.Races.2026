@@ -1,0 +1,37 @@
+2026 F1 CHAMPIONSHIP SIMULATION
+
+20,000 simulated runs of the remaining 5 races, starting from the real standings. Models trained through 2026-18.
+
+Right now: Kimi Antonelli leads on 365 points, 123 ahead of George Russell. Most points still available: 125.
+Still mathematically alive for the drivers' title: George Russell, Lewis Hamilton
+
+DRIVERS' CHAMPIONSHIP
+         Driver Title %  Top 3 %  Now  Expected pts Range (10-90%)
+ Kimi Antonelli   >99.9      100  365           436        410-463
+ Max Verstappen       0       71  236           306        280-334
+ Lewis Hamilton    <0.1       57  241           298        274-323
+ George Russell    <0.1       37  242           289        267-312
+Charles Leclerc       0       26  233           284        261-309
+   Lando Norris       0       10  211           268        245-293
+  Oscar Piastri       0        0  144           193        171-216
+   Isack Hadjar       0        0  105           150        129-173
+    Liam Lawson       0        0   77            90         79-103
+   Pierre Gasly       0        0   42            50          42-60
+
+CONSTRUCTORS' CHAMPIONSHIP
+ Constructor Title %  Top 3 %  Now  Expected pts Range (10-90%)
+    Mercedes   >99.9      100  607           725        687-763
+     Ferrari     0.1      100  474           582        546-620
+    Red Bull       0       59  355           471        433-508
+     Mclaren       0       41  355           461        425-498
+Racing Bulls       0        0  102           123        108-142
+      Alpine       0        0   69            82          71-96
+
+WHEN COULD THE DRIVERS' TITLE BE DECIDED? (chance it is settled by the end of each race)
+  Mexico         2026-11-01   97%
+  Sao Paulo      2026-11-08   >99.9%
+  Las Vegas      2026-11-22   >99.9%
+  Qatar          2026-11-29   >99.9%
+  Abu Dhabi      2026-12-06   >99.9%
+
+How to read it: 'Title %' is the share of simulated seasons that driver/team won; 'Range' covers the middle 80% of simulated final points totals. Odds are only as good as the model, which cannot know about crashes, reliability problems, penalties, weather or upgrades beyond what recent results already show. Not betting advice.

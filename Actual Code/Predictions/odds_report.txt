@@ -1,0 +1,59 @@
+MODEL vs BOOKMAKER ODDS (win chance)
+========================================
+Unlisted drivers assumed 0.4% each. Each source is scaled to add up to 100%.
+
+2026-18  [pre stage]
+----------------------------------------
+  Model: back-test (model fitted on earlier seasons only).
+  Source 'thespread_us_gp' (2026-10-19): 22 drivers priced, prices add up to 120.6%.
+
+  driver               model   market    diff
+  Max Verstappen       42.3%    37.7%   +4.6
+  Kimi Antonelli       19.2%    25.5%   -6.3   <- won
+  Lewis Hamilton        8.4%     6.4%   +2.0
+  Charles Leclerc       8.2%     6.4%   +1.8
+  Lando Norris          8.1%     6.9%   +1.2
+  George Russell        6.3%     6.9%   -0.6
+  Isack Hadjar          2.0%     3.9%   -2.0
+  Oscar Piastri         3.0%     3.9%   -0.9
+  Liam Lawson           0.3%     0.2%   +0.2
+  Pierre Gasly          0.2%     0.2%   +0.1
+  (top 10 by chance; 'diff' is model minus market in percentage points)
+  Winner: Kimi Antonelli. Chance given: model 19.2%, market 25.5%.
+
+2026-19  [pre stage]
+----------------------------------------
+  Model: saved before the race (2026-10-28 01:02 UTC).
+  Source 'f1livepulse' (2026-10-27): 6 drivers priced, prices add up to 111.2%.
+  Source 'rg_feed_a' (2026-10-27): 8 drivers priced, prices add up to 117.1%.
+  Source 'rg_feed_b' (2026-10-27): 8 drivers priced, prices add up to 118.6%.
+  Source 'rg_tonybet' (2026-10-27): 8 drivers priced, prices add up to 117.6%.
+  14 drivers priced by no source are assumed 0.4% each (5.6% in total before scaling).
+  'market' = average over the sources that price a driver, scaled to 100%; a dash means that source did not price him.
+
+  driver               model   market    diff    f1livepulse     rg_feed_a     rg_feed_b    rg_tonybet
+  Max Verstappen       31.8%    33.6%   -1.9          34.0%         33.9%         34.1%         34.3%
+  Kimi Antonelli       32.2%    29.7%   +2.5          30.9%         30.6%         29.4%         29.5%
+  Charles Leclerc       7.9%     8.4%   -0.5           8.9%          8.0%          9.0%          8.1%
+  Lewis Hamilton        8.4%     7.2%   +1.2           8.5%          5.4%          8.5%          6.8%
+  Lando Norris          7.5%     5.0%   +2.5           5.7%          4.8%          4.3%          5.4%
+  George Russell        5.3%     5.6%   -0.3           6.5%          6.2%          4.8%          5.4%
+  Isack Hadjar          2.1%     3.6%   -1.5              -          4.1%          3.1%          3.5%
+  Oscar Piastri         2.7%     2.4%   +0.3              -          2.4%          2.4%          2.4%
+  Alexander Albon       0.1%     0.3%   -0.2              -             -             -             -
+  Arvid Lindblad        0.2%     0.3%   -0.1              -             -             -             -
+  (top 10 by chance; 'diff' is model minus market in percentage points)
+  Tail check: with those drivers at 0.10% to 1.00% each, Max Verstappen is 31.5% to 34.8%, against 33.6% as assumed.
+  Race not run yet: nothing to score.
+
+SCORING (races already run)
+========================================
+race     stage winner               model   market   (chance given to the winner)
+2026-18  pre   Kimi Antonelli       19.2%    25.5%
+
+Races scored: 1
+  mean log score (lower is better): model 1.649, market 1.366
+  mean Brier score (lower is better): model 0.857, market 0.718
+  favourite won: model 0 of 1, market 0 of 1
+
+With 1 race this says nothing about which is better. One surprise winner moves these averages a lot. How many races it takes depends on the gap: in the 191-race back-test a big gap (the after-qualifying model against grid order, about 0.3 per race on the log score) needed roughly 70 races to show, while a gap of 0.01 would need over 1,000. Keep adding races, with odds taken BEFORE each race, and read this again much later.
