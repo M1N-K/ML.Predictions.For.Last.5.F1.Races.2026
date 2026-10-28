@@ -1,0 +1,21 @@
+# Manual changes for upcoming races. Edit this file, save it, then run the predictions again.
+# One change per line. Lines starting with # are ignored. Delete the # to switch an example on.
+#
+#   race    a race id such as 2026-19, or "next" (the next race), or "all" (every remaining race)
+#   driver  a surname or id, e.g. Hamilton or lewis-hamilton   (run: python overrides.py list)
+#   action  out | replace | add | team | penalty
+#   value   out: leave empty
+#           replace: the driver who takes the seat      add: the new driver (also fill "team")
+#           team: the new team                          penalty: places lost, e.g. 10, or "pitlane"
+#   team    only for "add"
+#   note    anything you like
+#
+# A grid penalty only has an effect after qualifying, because that is when there is a grid.
+# Driver changes (out / replace / add / team) work at every stage.
+#
+# Examples:
+#   next,Hamilton,penalty,10,,Engine change
+#   next,Stroll,out,,,Not racing
+#   next,Stroll,replace,Drugovich,,Reserve driver steps in
+#   next,,add,New Driver,cadillac,Third car
+race,driver,action,value,team,note
