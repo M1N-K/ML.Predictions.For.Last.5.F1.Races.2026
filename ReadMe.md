@@ -28,25 +28,17 @@ as plain text files, plus a web page with charts.
 
 ---
 
-## 🚀 Start here
-
-| I want to… | Go to |
-|---|---|
-| **Just see the predictions** (no setup) | [Dashboard](Dashboard.md): download one file and double-click it |
-| **Download everything** | [Download](Download.md): the full project on Google Drive |
-| **Run it on my computer** | [How To Setup](Code/Information/How%20To%20Setup.md): about 10 minutes, no coding |
-| **Keep it updated each race** | [Master Guide, section 5](MASTER_GUIDE.md#5-the-race-weekend-routine) |
-| **Understand the code** | [How It Works](Code/Information/How%20It%20Works.md) |
-| **Everything, in one place** | [Master Guide](MASTER_GUIDE.md) |
-
-### The 30-second version
+## 🚀 Quick start
 
 1. Install [Python](https://www.python.org/downloads). On Windows, tick **Add Python to PATH**.
-2. [Download the project](Download.md) and unzip it.
+2. Download the project from [Google Drive](https://drive.google.com/drive/folders/1AT_yU_6ySvWNcQNuzkBZ2hiR9vJrsoMC?usp=drive_link)
+   or with the green **Code** button above, then unzip it.
 3. Double-click **`Run_Predictions`** (`.bat` on Windows, `.command` on Mac).
 4. Open the **`Predictions`** folder.
 
 After each practice, qualifying or race, double-click **`Update_And_Predict`** to get new predictions.
+
+**Just want to look?** Download `dashboard.html` and double-click it. It opens in your browser with no setup.
 
 ---
 
@@ -104,8 +96,6 @@ The aim is a model whose numbers can be checked, not just admired.
 - **Data:** [f1db](https://github.com/f1db/f1db): results, qualifying, practice, pit stops, sprints and
   standings for every race since 2014.
 
-The full tour is in [How It Works](Code/Information/How%20It%20Works.md).
-
 ---
 
 ## 🎯 How well does it work?
@@ -152,8 +142,6 @@ An idea is only kept if it gives a clear gain, meaning a 95% interval that exclu
 | Shared team shocks in the championship simulation | **Kept, partly.** The 80% ranges now contain 82–85% of real outcomes (53–65% before), but the title odds didn't clearly improve. |
 | Comparing with bookmaker odds | No free source of past F1 odds, so only two races could be compared. A tool to keep adding to, not a result. |
 
-Every test and its numbers: [MODEL_NOTES.md](MODEL_NOTES.md).
-
 ---
 
 ## ⚠️ What it isn't
@@ -164,20 +152,6 @@ Every test and its numbers: [MODEL_NOTES.md](MODEL_NOTES.md).
 - **Short on data for the newest rules.** The 2026 regulations reset the pecking order, and only 18 races of
   this era exist so far.
 - **Not tested on a real Windows or Mac machine** for the daily automatic-update scripts.
-
----
-
-## 📚 All the guides
-
-| Guide | What's in it |
-|---|---|
-| [Master Guide](MASTER_GUIDE.md) | Everything: setup, race weekends, overrides, odds, sharing, retraining, every command, troubleshooting |
-| [How To Setup](Code/Information/How%20To%20Setup.md) | Installing and running it, step by step |
-| [How It Works](Code/Information/How%20It%20Works.md) | A file-by-file tour of the code |
-| [Dashboard](Dashboard.md) | What the web page shows and how to open it |
-| [Download](Download.md) | The full project on Google Drive |
-| [Model Notes](MODEL_NOTES.md) | Every experiment and its numbers |
-| `START HERE.txt` | The short version, inside the download |
 
 ---
 
